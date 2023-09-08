@@ -1,0 +1,59 @@
+.l-mid-section {
+    padding: 0 0.625rem 6.25rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-mid-section__benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9375rem 0;
+    margin-bottom: 3.125rem;
+}
+
+.l-mid-section__benefit {
+    flex: 1 1 12.5rem;
+    padding: 0.625rem;
+}
+
+.l-mid-section__benefit img {
+    display: block;
+    margin: 0 auto 0.9375rem;
+}
+
+.l-mid-section__benefit .c-paragraph {
+    text-align: center;
+}
+
+.l-mid-section__more-benefits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+}
+
+.l-mid-section__menu {
+    flex: 1 1 25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    padding: 1.875rem;
+    background-image: url(../../imgs/graos-cafe.png);
+    background-size: cover;
+    height: 32.5rem;
+    max-width: 43.75rem;
+}
+
+.l-mid-section__menu--two {
+    background-image: url(../../imgs/cafeteira.png);
+}
+
+.l-mid-section__menu .c-title, .l-mid-section__menu .c-paragraph {
+    color: var(--clr-orange-light);
+}
+
+.l-mid-section__menu .c-paragraph {
+    max-width: 26.875rem;
+}

@@ -1,0 +1,18 @@
+.l-footer {
+    background-color: var(--clr-orange-light);
+}
+
+.l-footer__main {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 2.5rem 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-footer__copyright {
+    display: block;
+    padding: 1.875rem;
+    margin: 0 auto;
+}

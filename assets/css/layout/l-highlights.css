@@ -1,0 +1,28 @@
+.l-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 8.75rem;
+    
+    padding: 7.5rem 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-highlights__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-highlights__container img{
+    flex: 1;
+    max-width: 36.25rem;
+}
+
+.l-highlights__text {
+    flex: 1;
+    padding: 0 6.25rem;
+}
+
+.l-highlights__text .c-paragraph {
+    margin-top: 1.25rem;
+}

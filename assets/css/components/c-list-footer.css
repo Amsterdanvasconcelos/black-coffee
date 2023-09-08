@@ -1,0 +1,25 @@
+.c-list-footer {
+    color: var(--clr-black-two);
+    font-family: var(--ff-description);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.c-list-footer ul {
+    list-style: none;
+}
+
+.c-list-footer li {
+    line-height: 2;
+}
+
+.c-list-footer__title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.c-list-footer--img img {
+    padding-right: 10px;
+}

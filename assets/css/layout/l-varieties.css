@@ -1,0 +1,17 @@
+.l-varieties {
+    padding: 0 0.625rem 6.25rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-varieties .c-title {
+    margin-bottom: 2.1875rem;
+    color: var(--clr-yellow-gray);
+}
+
+.l-varieties__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+}

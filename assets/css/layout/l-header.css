@@ -1,0 +1,25 @@
+.l-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.75rem 0.625rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.l-header img {
+    cursor: pointer;
+}
+
+.l-header img:hover {
+    transform: scale(1.1);
+}
+
+.l-header img:active {
+    filter: drop-shadow(0 0 5px var(--clr-white));
+}
+
+.l-header .c-logo {
+    color: var(--clr-white);
+}

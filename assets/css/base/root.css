@@ -1,0 +1,16 @@
+:root {
+    --clr-white: #fff;
+    --clr-white-two: #FFFCF6;
+
+    --clr-black: #000;
+    --clr-black-two: #1F1F1F;
+
+    --clr-gray: #969696;
+
+    --clr-green-dark: #0B1D03;
+    --clr-yellow-gray: #A0996C;
+    --clr-orange-light: #F7F1E6;
+    
+    --ff-title: 'Playfair Display', serif;
+    --ff-description: 'Open Sans', sans-serif;
+}

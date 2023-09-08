@@ -1,0 +1,11 @@
+.c-title-large {
+    font-family: var(--ff-title);
+    font-size: 4.375rem;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+.c-title {
+    color: var(--clr-green-dark);
+    font-size: 3.125rem;
+}

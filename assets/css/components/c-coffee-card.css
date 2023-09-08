@@ -1,0 +1,52 @@
+.c-coffee-card {
+    flex: 1 1 18.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    
+    padding: 1.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-orange-light);
+    max-width: 25rem;
+    color: var(--clr-green-dark);
+    font-family: var(--ff-description);
+}
+
+.c-coffee-card__title {
+    font-size: 1.375rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+}
+
+.c-coffee-card__price {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.c-coffee-card__price-previous {
+    color: var(--clr-gray);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.c-coffee-card__btn {
+    padding: 1.25rem 0.625rem;
+    border-radius: 0.25rem;
+    background-color: var(--clr-green-dark);
+    width: 100%;
+    cursor: pointer;
+    color: var(--clr-white);
+    font-size: 1.125rem;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+
+.c-coffee-card__btn:hover {
+    transform: scale(1.01);
+}
+
+.c-coffee-card__btn:active {
+    box-shadow: 0 0 0 0.125rem var(--clr-black);
+}

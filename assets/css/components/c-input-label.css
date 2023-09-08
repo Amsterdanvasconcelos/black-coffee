@@ -1,0 +1,27 @@
+.c-input-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    padding: 0.9375rem;
+    border: 0.125rem solid var(--clr-green-dark);
+    border-radius: 0.25rem;
+    height: 4.375rem;
+}
+
+.c-input-label select {
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    color: var(--clr-gray);
+    font-size: 1.25rem;
+}
+
+.c-input-label input[type="search"] {
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    color: var(--clr-gray);
+    font-size: 1.25rem;
+}
