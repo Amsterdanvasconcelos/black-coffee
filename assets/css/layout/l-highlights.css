@@ -11,18 +11,46 @@
 .l-highlights__container {
     display: flex;
     flex-wrap: wrap;
+    gap: 3.125rem;
 }
 
-.l-highlights__container img{
-    flex: 1;
-    max-width: 36.25rem;
+.l-highlights__container--row-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.l-highlights__img {
+    flex: 1 1 350px;
+}
+
+.l-highlights__img img {
+    width: 100%;
 }
 
 .l-highlights__text {
-    flex: 1;
-    padding: 0 6.25rem;
+    flex: 1 1 350px;
+}
+
+.l-highlights__text h1, .l-highlights__text p {
+    margin: 0 auto;
+    max-width: 25rem;
 }
 
 .l-highlights__text .c-paragraph {
     margin-top: 1.25rem;
+}
+
+@media (max-width: 43.75rem) {
+    .l-highlights {
+        gap: 70px;
+    }
+}
+
+@media (max-width: 25rem) {
+    .l-highlights__text h1 {
+        font-size: 40px;
+    }
+
+    .l-highlights__text p {
+        font-size: 20px;
+    }
 }

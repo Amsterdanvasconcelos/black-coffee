@@ -5,10 +5,17 @@
 .l-footer__main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.875rem;
     
     padding: 2.5rem 0.625rem;
     margin: 0 auto;
     max-width: 75rem;
+}
+
+.l-footer__main .c-list-footer,
+.l-footer__main .c-logo {
+    flex-basis: 200px;
 }
 
 .l-footer__copyright {
